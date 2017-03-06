@@ -5,7 +5,7 @@ export ZSH=/Users/xcoan/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="afowler"
+ZSH_THEME="arrow"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -103,6 +103,9 @@ alias gp="git pull"
 alias gb="git branch"
 alias gc="git commit"
 alias server="rails server"
+alias purduessh="ssh xcoan@maven.itap.purdue.edu"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/sbin:$PATH"
+export ENCR_KEY="eqz744891TQ3eZImOmAmD48q8JERZVwu"
+export MEDLOG_GMAPS="AIzaSyAO87r4quk3ULm3JYOIxVC1dbNsJQsyPkg"
