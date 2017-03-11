@@ -103,9 +103,6 @@ alias gp="git pull"
 alias gb="git branch"
 alias gc="git commit"
 alias server="rails server"
-alias purduessh="ssh xcoan@maven.itap.purdue.edu"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/sbin:$PATH"
-export ENCR_KEY="eqz744891TQ3eZImOmAmD48q8JERZVwu"
-export MEDLOG_GMAPS="AIzaSyAO87r4quk3ULm3JYOIxVC1dbNsJQsyPkg"
