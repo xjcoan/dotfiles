@@ -103,7 +103,12 @@ alias gp="git pull"
 alias gb="git branch"
 alias gc="git commit"
 alias server="rails server"
-
+alias p3="python3"
+alias rmds="find . -name '.DS_Store' -type f -delete"
+alias junit="java org.junit.runner.JUnitCore" #Junit testing. Use: junit <Java class file>
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/sbin:$PATH"
+export JUNIT_HOME="$HOME/java"
+export PATH="$PATH:$JUNIT_HOME"
+export CLASSPATH="$CLASSPATH:$JUNIT_HOME/junit-4.12.jar:$JUNIT_HOME/hamcrest-core-1.3.jar"
