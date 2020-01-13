@@ -107,6 +107,13 @@ alias server="rails server"
 alias p3="python3"
 alias rmds="find . -name '.DS_Store' -type f -delete"
 alias junit="java org.junit.runner.JUnitCore" #Junit testing. Use: junit <Java class file>
+alias up="docker-compose up"
+alias down="docker-compose down"
+alias build="docker-compose build"
+alias rake="bundle exec rake"
+alias migrate="bundle exec rake db:migrate"
+alias rspec="bundle exec rspec"
+alias rollback="bundle exec rake db:rollback"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/sbin:$PATH"
