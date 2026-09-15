@@ -13,3 +13,4 @@ as my go-to editor.  Vim is only really for small edits or git stuff, so there's
 
 ##### Note to self (or whomever is reading through these dotfiles)
 I have a gist on setting up Java junit testing on a macbook [here](https://gist.github.com/xjcoan/d57cca33f3b046acbb5b25a4bd2d6760) to get it working with my .zshrc config.
+I haven't used Java in a very long time and that info should be considered outdated.
